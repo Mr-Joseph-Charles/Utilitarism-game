@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    letter-spacing: 1px;
+    min-width: auto;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+h1 {
+    position: absolute;
+}
+
+p {
+    width: 350px;
+    height: 225px;
+    display: inline-block;
+    font-size: medium;
+    color: #16A8B0;
+    border: 4px #16A8B0 groove;
+    text-align: center;
+    border-style: groove;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 45px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+
+a {
+    margin-left: 0;
+    font-size: small;
+    font-weight: 300;
+    color: rgb(235, 143, 57);
+    font-style: italic;
+}
+
+img {
+    position: fixed;
+    width: 1250px;
+    height: 1100px;
+    border-radius: 3.141516%;
+    border-width: 5px;
+    border-style: inset;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+em {
+    font-style: italic;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: blanchedalmond;
+}
+
+.title {
+    width: 350px;
+    height: 50px;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    color: tomato;
+    border-radius: 6.28%;
+    border: 2px tomato dotted;
+    padding: 10px;
+    padding-left: 24px;
+    margin-left: 30%;
+    margin-top: 35px;
+}
+
+.context {
+    width: 900px;
+    color: rgba(68, 230, 94, 0.9);
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 11.5%;
+}
+
+.question1 {
+    margin-left: 175px;
+}
+
+.question2 {
+    margin-left: 100px;
+}
+
+.q2 {
+    height: 175px;
+}
+
+.q3 {
+    height: 250px;
+}
+
+.instructions {
+    display: block; 
+    float: bottom;
+    font-size: small;
+    font-weight: 300;
+    color: blanchedalmond;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 14%;
+}
+
+.void {
+    visibility: hidden;
+}
+
+.final {
+    width: 1050px;
+    position: absolute;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 1.4rem;
+    top: 5px;
+    left: 30px;    
+}
+
+#Next {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 15px;
+}
+
+p:hover {
+    background-color: tomato;
+    border-color: tomato;
+    color: black;
+}
